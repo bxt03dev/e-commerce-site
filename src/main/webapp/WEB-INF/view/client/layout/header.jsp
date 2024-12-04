@@ -5,7 +5,7 @@
     <div class="container px-0">
         <nav class="navbar navbar-light bg-white navbar-expand-xl" >
             <a href="/" class="navbar-brand">
-                <h1 class="primary_color display-6">BXT<i class="header__logo-icon fa-solid fa-earth-americas"></i>Shop</h1>
+                <h1 style="font-weight: 600; color: #ff5b00 !important;" class="display-6">BXT/Shop</h1>
             </a>
             <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarCollapse">

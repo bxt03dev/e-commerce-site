@@ -148,8 +148,8 @@
 <div class="container-fluid py-5">
     <div class="container py-5">
         <div class="text-center mx-auto mb-5" style="max-width: 700px;">
-            <h1 class="display-4">Bestseller Products</h1>
-            <p>
+            <h1 style="font-weight: 600; color: #000;" class="display-4">Bestseller Products</h1>
+            <p style="color: #000">
                 BestProduct offers a wide selection of high-quality items across various categories,
                 ensuring great value and excellent customer service. Shop with ease and enjoy fast delivery for all your needs!
             </p>
@@ -171,7 +171,7 @@
                                         </h4>
                                         <p style="font-size: 13px;" class="text-center">${product.shortDesc}</p>
                                         <div class="d-flex flex-lg-wrap justify-content-center flex-column">
-                                            <p style="font-size: 15px; text-align: center; width: 100%" class="text-dark fw-bold mb-3">
+                                            <p style="font-size: 15px; text-align: center; width: 100%; font-weight: 500 !important;" class="text-dark fw-bold mb-3">
                                                 <fmt:formatNumber type="number" value="${product.price}"/>đ
                                             </p>
                                             <form action="/add-product-to-cart/${product.id}" method="post" class="text-center">

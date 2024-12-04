@@ -4,8 +4,8 @@
             <div class="row g-4">
                 <div class="col-lg-3">
                     <a href="#">
-                        <h1 class="text-primary mb-0">BXTShop</h1>
-                        <p class="text-secondary mb-0">Quality products</p>
+                        <h1 style="color: #fff !important;" class="text-primary mb-0">BXTShop</h1>
+                        <p style="color: #fff !important;" class="text-secondary mb-0">Quality products</p>
                     </a>
                 </div>
                 <div class="col-lg-6">
@@ -13,10 +13,12 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="d-flex justify-content-end pt-3">
-                        <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle" href="https://www.facebook.com/bxt25Oct"><i
-                                class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-secondary btn-md-square rounded-circle" href="https://www.linkedin.com/in/bui-xuan-truong-8a82b3284/"><i
-                                class="fab fa-linkedin-in"></i></a>
+                        <a style="border: 1px solid #fff !important;" class="btn btn-outline-secondary me-2 btn-md-square rounded-circle" href="https://www.facebook.com/bxt25Oct">
+                            <i style="color: #fff !important;" class="fab fa-facebook-f"></i>
+                        </a>
+                        <a style="border: 1px solid #fff !important;" class="btn btn-outline-secondary btn-md-square rounded-circle" href="https://www.linkedin.com/in/bui-xuan-truong-8a82b3284/">
+                            <i style="color: #fff !important;" class="fab fa-linkedin-in"></i>
+                        </a>
                     </div>
                 </div>
             </div>

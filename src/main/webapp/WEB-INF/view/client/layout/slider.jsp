@@ -3,13 +3,13 @@
         <div class="slider-container">
             <div class="slider">
                 <div class="slide active">
-                    <img src="/client/img/mac.jpg" alt="Slide 1">
+                    <img src="/client/img/macair.jpg" alt="Slide 1">
                 </div>
                 <div class="slide">
-                    <img src="/client/img/mac2.webp" alt="Slide 2">
+                    <img src="/client/img/macM2.jpg" alt="Slide 2">
                 </div>
                 <div class="slide">
-                    <img src="/client/img/mac3.webp" alt="Slide 3">
+                    <img src="/client/img/macpro.jpg" alt="Slide 3">
                 </div>
             </div>
             <button class="prev" onclick="prevSlide()">&#10094;</button>
