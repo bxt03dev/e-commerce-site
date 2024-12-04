@@ -236,5 +236,38 @@
         return formatted;
     }
 
+
 })(jQuery);
+
+let currentSlide = 0; // Vị trí slide hiện tại
+
+function showSlide(index) {
+    const slides = document.querySelectorAll('.slide');
+    const totalSlides = slides.length;
+
+    // Xử lý nếu vượt quá số slide
+    if (index >= totalSlides) {
+        currentSlide = 0; // Quay về slide đầu tiên
+    } else if (index < 0) {
+        currentSlide = totalSlides - 1; // Quay về slide cuối cùng
+    } else {
+        currentSlide = index;
+    }
+
+    // Cập nhật vị trí hiển thị slider
+    const slider = document.querySelector('.slider');
+    slider.style.transform = `translateX(-${currentSlide * 100}%)`;
+}
+
+function nextSlide() {
+    showSlide(currentSlide + 1); // Chuyển đến slide kế tiếp
+}
+
+function prevSlide() {
+    showSlide(currentSlide - 1); // Quay về slide trước đó
+}
+
+// Khởi tạo slider
+showSlide(currentSlide);
+
 

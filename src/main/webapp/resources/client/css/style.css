@@ -1,5 +1,51 @@
 
 /*** Spinner Start ***/
+/* Slider container */
+.slider-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Slider */
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Slide */
+.slide {
+    min-width: 100%; /* Mỗi slide chiếm toàn bộ chiều rộng container */
+    box-sizing: border-box;
+}
+
+.slide img {
+    width: 100%; /* Đảm bảo ảnh phù hợp với container */
+    display: block;
+}
+
+/* Buttons */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 10;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
 #spinner {
     opacity: 0;
     visibility: hidden;

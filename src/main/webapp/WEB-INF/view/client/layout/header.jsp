@@ -3,7 +3,7 @@
 
 <div class="container-fluid fixed-top">
     <div class="container px-0">
-        <nav class="navbar navbar-light bg-white navbar-expand-xl">
+        <nav class="navbar navbar-light bg-white navbar-expand-xl" >
             <a href="/" class="navbar-brand">
                 <h1 class="primary_color display-6">BXT<i class="header__logo-icon fa-solid fa-earth-americas"></i>Shop</h1>
             </a>
